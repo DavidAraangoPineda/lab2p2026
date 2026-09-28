@@ -114,7 +114,7 @@ jobs:
           path: target/lab2p2026.jar
 
       - name: Build & push Docker image
-        uses: mr-smithers-excellent/docker-build-push@v6
+        uses: mr-smithers-excellent/docker-build-push@v0b0ff76ce46872610788965d7be9da5309fc0ddb
         with:
           image: dbotiaudea/lab2p2026
           tags: latest
