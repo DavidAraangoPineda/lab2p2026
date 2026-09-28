@@ -75,6 +75,10 @@
 
 
 		</plugins>
+
+		<finalName>lab2p2026</finalName>
+
+
 	</build>
 
 </project>
