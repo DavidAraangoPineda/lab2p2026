@@ -66,5 +66,10 @@ public class DataController {
         }
         return aviations;
     }
+
+    public String saludo(String saludar){
+
+        return "Hola a todos " +saludar;
+    }
 }
 

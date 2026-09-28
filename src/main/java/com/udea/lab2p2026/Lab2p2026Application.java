@@ -11,10 +11,7 @@ public class Lab2p2026Application {
 		SpringApplication.run(Lab2p2026Application.class, args);
 	}
 
-	@Bean
-	public String saludo(String saludo){
-		
-		return "Hola a todos " +saludo;
-	}
+	//Bean
+
 
 }
