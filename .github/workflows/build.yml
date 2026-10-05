@@ -78,7 +78,7 @@ jobs:
           mvn -B
           org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
           -Dsonar.projectKey=DavidAraangoPineda_lab2p2026
-          -Dsonar.organization=DavidAraangoPineda
+          -Dsonar.organization=davidaraangopineda
           -Dsonar.host.url=https://sonarcloud.io
           -Dsonar.token=$SONAR_TOKEN
 
